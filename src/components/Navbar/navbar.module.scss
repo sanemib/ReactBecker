@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.h1{
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 2.2em !important;
+    padding-top: 20px !important;
+}
+.nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    background-color:#cd8a03;
+}
+.home{
+    margin-right: auto;
+}
+.homeA{
+    display: flex;
+    align-items: center;
+}
+.homeImg{
+    width: 50px;
+}
+.tp{
+    font-size: 1em;
+    color: rgb(255, 226, 194);
+    text-decoration: none;
+    align-self: flex-end;
+    margin: 13px;
+    font-style: italic;; 
+}

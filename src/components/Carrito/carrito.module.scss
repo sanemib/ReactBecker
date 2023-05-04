@@ -1,0 +1,117 @@
+.pestañaCarrito{
+    padding: 40px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.producto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.459);
+    animation-duration: 1s;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.2em;
+    color: black;
+    font-size: 20px;
+    :first-child{
+        display: flex;
+        align-items: center;
+    }
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    :children{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    :last-child{
+        border-radius: 0 5px 5px 0;
+    }
+    :first-child{
+        border-radius: 5px 0 0 5px;
+    }
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+.btnandprice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.price{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+    margin: 0 30px;
+}
+.empty{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+    margin: 150px;
+}
+.total{
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 40px;
+}

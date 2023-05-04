@@ -1,0 +1,19 @@
+.container{
+    display: flex;;
+    justify-content: space-between;
+    padding: 5px 150px;
+    background-color:#a3731fcb;
+    border-top: rgba(0, 0, 0, 0.336) solid 1px;
+    :hover{
+        color: rgb(237, 240, 243)
+    }
+}
+.NavLink{
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+ul{
+    font-size: 1.1em;
+    font-weight:500;
+}
