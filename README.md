@@ -9,7 +9,7 @@ Para comenzar a trabajar con el proyecto, siga estos pasos:
 Clone el repositorio en su máquina local.
 Navegue hasta la carpeta raíz del proyecto.
 Ejecute npm install para instalar todas las dependencias.
-Ejecute npm start para iniciar la aplicación en modo de desarrollo.
+Ejecute npm run dev para iniciar la aplicación en modo de desarrollo.
 
 # Aclaraciones extras
 
